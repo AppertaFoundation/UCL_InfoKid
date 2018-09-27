@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB05F2671E6F52FE004D0317 /* FutureAppointmentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB05F2661E6F52FE004D0317 /* FutureAppointmentsViewController.swift */; };
+		DB4422B51E4269E600CA4E5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4422B41E4269E600CA4E5F /* AppDelegate.swift */; };
+		DB4422B71E4269E600CA4E5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4422B61E4269E600CA4E5F /* ViewController.swift */; };
+		DB4422BA1E4269E600CA4E5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB4422B81E4269E600CA4E5F /* Main.storyboard */; };
+		DB4422BC1E4269E600CA4E5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB4422BB1E4269E600CA4E5F /* Assets.xcassets */; };
+		DB4422BF1E4269E600CA4E5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB4422BD1E4269E600CA4E5F /* LaunchScreen.storyboard */; };
+		DB4422CA1E4269E600CA4E5F /* Kidney_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4422C91E4269E600CA4E5F /* Kidney_AppTests.swift */; };
+		DB4422D51E4269E600CA4E5F /* Kidney_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4422D41E4269E600CA4E5F /* Kidney_AppUITests.swift */; };
+		DB4422E51E42925C00CA4E5F /* RegisterPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4422E41E42925C00CA4E5F /* RegisterPageViewController.swift */; };
+		DB4422E71E429EF800CA4E5F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4422E61E429EF800CA4E5F /* LoginViewController.swift */; };
+		DB4F943B1E48E60000171862 /* NormalAnatomyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4F943A1E48E60000171862 /* NormalAnatomyViewController.swift */; };
+		DB4F943D1E48E80400171862 /* SetConditionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4F943C1E48E80400171862 /* SetConditionViewController.swift */; };
+		DB6B2C131E9FF5D20007A1F2 /* MoreInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6B2C121E9FF5D20007A1F2 /* MoreInfoViewController.swift */; };
+		DB7117891E717E27007A022A /* AddAppointmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7117881E717E27007A022A /* AddAppointmentViewController.swift */; };
+		DB71178B1E717E3E007A022A /* DetailedAppointmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB71178A1E717E3E007A022A /* DetailedAppointmentViewController.swift */; };
+		DB71178D1E7181E9007A022A /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB71178C1E7181E9007A022A /* CustomTableViewCell.swift */; };
+		DBF431481E6DB0EF006A2436 /* LeftSideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF431471E6DB0EF006A2436 /* LeftSideViewController.swift */; };
+		DBF4314A1E6DB0FB006A2436 /* RightSideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF431491E6DB0FB006A2436 /* RightSideViewController.swift */; };
+		DBF4314C1E6DCEF0006A2436 /* Child'sAnatomyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF4314B1E6DCEF0006A2436 /* Child'sAnatomyViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB4422C61E4269E600CA4E5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB4422A91E4269E600CA4E5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB4422B01E4269E600CA4E5F;
+			remoteInfo = "Kidney App";
+		};
+		DB4422D11E4269E600CA4E5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB4422A91E4269E600CA4E5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB4422B01E4269E600CA4E5F;
+			remoteInfo = "Kidney App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB05F2661E6F52FE004D0317 /* FutureAppointmentsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FutureAppointmentsViewController.swift; sourceTree = "<group>"; };
+		DB4422B11E4269E600CA4E5F /* Kidney App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kidney App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB4422B41E4269E600CA4E5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DB4422B61E4269E600CA4E5F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DB4422B91E4269E600CA4E5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB4422BB1E4269E600CA4E5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB4422BE1E4269E600CA4E5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB4422C01E4269E600CA4E5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB4422C51E4269E600CA4E5F /* Kidney AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kidney AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB4422C91E4269E600CA4E5F /* Kidney_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kidney_AppTests.swift; sourceTree = "<group>"; };
+		DB4422CB1E4269E600CA4E5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB4422D01E4269E600CA4E5F /* Kidney AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kidney AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB4422D41E4269E600CA4E5F /* Kidney_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kidney_AppUITests.swift; sourceTree = "<group>"; };
+		DB4422D61E4269E600CA4E5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB4422E41E42925C00CA4E5F /* RegisterPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterPageViewController.swift; sourceTree = "<group>"; };
+		DB4422E61E429EF800CA4E5F /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		DB4F943A1E48E60000171862 /* NormalAnatomyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NormalAnatomyViewController.swift; sourceTree = "<group>"; };
+		DB4F943C1E48E80400171862 /* SetConditionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetConditionViewController.swift; sourceTree = "<group>"; };
+		DB6B2C121E9FF5D20007A1F2 /* MoreInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreInfoViewController.swift; sourceTree = "<group>"; };
+		DB7117881E717E27007A022A /* AddAppointmentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddAppointmentViewController.swift; sourceTree = "<group>"; };
+		DB71178A1E717E3E007A022A /* DetailedAppointmentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailedAppointmentViewController.swift; sourceTree = "<group>"; };
+		DB71178C1E7181E9007A022A /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		DBF431471E6DB0EF006A2436 /* LeftSideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftSideViewController.swift; sourceTree = "<group>"; };
+		DBF431491E6DB0FB006A2436 /* RightSideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightSideViewController.swift; sourceTree = "<group>"; };
+		DBF4314B1E6DCEF0006A2436 /* Child'sAnatomyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Child'sAnatomyViewController.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB4422AE1E4269E600CA4E5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB4422C21E4269E600CA4E5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB4422CD1E4269E600CA4E5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB4422A81E4269E600CA4E5F = {
+			isa = PBXGroup;
+			children = (
+				DB4422B31E4269E600CA4E5F /* Kidney App */,
+				DB4422C81E4269E600CA4E5F /* Kidney AppTests */,
+				DB4422D31E4269E600CA4E5F /* Kidney AppUITests */,
+				DB4422B21E4269E600CA4E5F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB4422B21E4269E600CA4E5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB4422B11E4269E600CA4E5F /* Kidney App.app */,
+				DB4422C51E4269E600CA4E5F /* Kidney AppTests.xctest */,
+				DB4422D01E4269E600CA4E5F /* Kidney AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB4422B31E4269E600CA4E5F /* Kidney App */ = {
+			isa = PBXGroup;
+			children = (
+				DB4422B41E4269E600CA4E5F /* AppDelegate.swift */,
+				DB4422B61E4269E600CA4E5F /* ViewController.swift */,
+				DB4F943C1E48E80400171862 /* SetConditionViewController.swift */,
+				DB4F943A1E48E60000171862 /* NormalAnatomyViewController.swift */,
+				DB4422E61E429EF800CA4E5F /* LoginViewController.swift */,
+				DB4422E41E42925C00CA4E5F /* RegisterPageViewController.swift */,
+				DB4422B81E4269E600CA4E5F /* Main.storyboard */,
+				DB4422BB1E4269E600CA4E5F /* Assets.xcassets */,
+				DB4422BD1E4269E600CA4E5F /* LaunchScreen.storyboard */,
+				DB4422C01E4269E600CA4E5F /* Info.plist */,
+				DBF431471E6DB0EF006A2436 /* LeftSideViewController.swift */,
+				DBF431491E6DB0FB006A2436 /* RightSideViewController.swift */,
+				DBF4314B1E6DCEF0006A2436 /* Child'sAnatomyViewController.swift */,
+				DB05F2661E6F52FE004D0317 /* FutureAppointmentsViewController.swift */,
+				DB7117881E717E27007A022A /* AddAppointmentViewController.swift */,
+				DB71178A1E717E3E007A022A /* DetailedAppointmentViewController.swift */,
+				DB71178C1E7181E9007A022A /* CustomTableViewCell.swift */,
+				DB6B2C121E9FF5D20007A1F2 /* MoreInfoViewController.swift */,
+			);
+			path = "Kidney App";
+			sourceTree = "<group>";
+		};
+		DB4422C81E4269E600CA4E5F /* Kidney AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB4422C91E4269E600CA4E5F /* Kidney_AppTests.swift */,
+				DB4422CB1E4269E600CA4E5F /* Info.plist */,
+			);
+			path = "Kidney AppTests";
+			sourceTree = "<group>";
+		};
+		DB4422D31E4269E600CA4E5F /* Kidney AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DB4422D41E4269E600CA4E5F /* Kidney_AppUITests.swift */,
+				DB4422D61E4269E600CA4E5F /* Info.plist */,
+			);
+			path = "Kidney AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB4422B01E4269E600CA4E5F /* Kidney App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB4422D91E4269E600CA4E5F /* Build configuration list for PBXNativeTarget "Kidney App" */;
+			buildPhases = (
+				DB4422AD1E4269E600CA4E5F /* Sources */,
+				DB4422AE1E4269E600CA4E5F /* Frameworks */,
+				DB4422AF1E4269E600CA4E5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kidney App";
+			productName = "Kidney App";
+			productReference = DB4422B11E4269E600CA4E5F /* Kidney App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB4422C41E4269E600CA4E5F /* Kidney AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB4422DC1E4269E600CA4E5F /* Build configuration list for PBXNativeTarget "Kidney AppTests" */;
+			buildPhases = (
+				DB4422C11E4269E600CA4E5F /* Sources */,
+				DB4422C21E4269E600CA4E5F /* Frameworks */,
+				DB4422C31E4269E600CA4E5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB4422C71E4269E600CA4E5F /* PBXTargetDependency */,
+			);
+			name = "Kidney AppTests";
+			productName = "Kidney AppTests";
+			productReference = DB4422C51E4269E600CA4E5F /* Kidney AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB4422CF1E4269E600CA4E5F /* Kidney AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB4422DF1E4269E600CA4E5F /* Build configuration list for PBXNativeTarget "Kidney AppUITests" */;
+			buildPhases = (
+				DB4422CC1E4269E600CA4E5F /* Sources */,
+				DB4422CD1E4269E600CA4E5F /* Frameworks */,
+				DB4422CE1E4269E600CA4E5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB4422D21E4269E600CA4E5F /* PBXTargetDependency */,
+			);
+			name = "Kidney AppUITests";
+			productName = "Kidney AppUITests";
+			productReference = DB4422D01E4269E600CA4E5F /* Kidney AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB4422A91E4269E600CA4E5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Bogdan Nitescu";
+				TargetAttributes = {
+					DB4422B01E4269E600CA4E5F = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 7A3GEXU7G4;
+						ProvisioningStyle = Automatic;
+					};
+					DB4422C41E4269E600CA4E5F = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DB4422B01E4269E600CA4E5F;
+					};
+					DB4422CF1E4269E600CA4E5F = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DB4422B01E4269E600CA4E5F;
+					};
+				};
+			};
+			buildConfigurationList = DB4422AC1E4269E600CA4E5F /* Build configuration list for PBXProject "Kidney App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB4422A81E4269E600CA4E5F;
+			productRefGroup = DB4422B21E4269E600CA4E5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB4422B01E4269E600CA4E5F /* Kidney App */,
+				DB4422C41E4269E600CA4E5F /* Kidney AppTests */,
+				DB4422CF1E4269E600CA4E5F /* Kidney AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB4422AF1E4269E600CA4E5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB4422BF1E4269E600CA4E5F /* LaunchScreen.storyboard in Resources */,
+				DB4422BC1E4269E600CA4E5F /* Assets.xcassets in Resources */,
+				DB4422BA1E4269E600CA4E5F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB4422C31E4269E600CA4E5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB4422CE1E4269E600CA4E5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB4422AD1E4269E600CA4E5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB71178B1E717E3E007A022A /* DetailedAppointmentViewController.swift in Sources */,
+				DB4422E71E429EF800CA4E5F /* LoginViewController.swift in Sources */,
+				DBF431481E6DB0EF006A2436 /* LeftSideViewController.swift in Sources */,
+				DB6B2C131E9FF5D20007A1F2 /* MoreInfoViewController.swift in Sources */,
+				DBF4314A1E6DB0FB006A2436 /* RightSideViewController.swift in Sources */,
+				DB05F2671E6F52FE004D0317 /* FutureAppointmentsViewController.swift in Sources */,
+				DB4F943B1E48E60000171862 /* NormalAnatomyViewController.swift in Sources */,
+				DB4F943D1E48E80400171862 /* SetConditionViewController.swift in Sources */,
+				DB4422B71E4269E600CA4E5F /* ViewController.swift in Sources */,
+				DBF4314C1E6DCEF0006A2436 /* Child'sAnatomyViewController.swift in Sources */,
+				DB4422B51E4269E600CA4E5F /* AppDelegate.swift in Sources */,
+				DB7117891E717E27007A022A /* AddAppointmentViewController.swift in Sources */,
+				DB4422E51E42925C00CA4E5F /* RegisterPageViewController.swift in Sources */,
+				DB71178D1E7181E9007A022A /* CustomTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB4422C11E4269E600CA4E5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB4422CA1E4269E600CA4E5F /* Kidney_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB4422CC1E4269E600CA4E5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB4422D51E4269E600CA4E5F /* Kidney_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB4422C71E4269E600CA4E5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB4422B01E4269E600CA4E5F /* Kidney App */;
+			targetProxy = DB4422C61E4269E600CA4E5F /* PBXContainerItemProxy */;
+		};
+		DB4422D21E4269E600CA4E5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB4422B01E4269E600CA4E5F /* Kidney App */;
+			targetProxy = DB4422D11E4269E600CA4E5F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB4422B81E4269E600CA4E5F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB4422B91E4269E600CA4E5F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB4422BD1E4269E600CA4E5F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB4422BE1E4269E600CA4E5F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB4422D71E4269E600CA4E5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DB4422D81E4269E600CA4E5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB4422DA1E4269E600CA4E5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7A3GEXU7G4;
+				INFOPLIST_FILE = "Kidney App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MyCompany.Kidney-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DB4422DB1E4269E600CA4E5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7A3GEXU7G4;
+				INFOPLIST_FILE = "Kidney App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MyCompany.Kidney-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		DB4422DD1E4269E600CA4E5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Kidney AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MyCompany.Kidney-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kidney App.app/Kidney App";
+			};
+			name = Debug;
+		};
+		DB4422DE1E4269E600CA4E5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Kidney AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MyCompany.Kidney-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kidney App.app/Kidney App";
+			};
+			name = Release;
+		};
+		DB4422E01E4269E600CA4E5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Kidney AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MyCompany.Kidney-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Kidney App";
+			};
+			name = Debug;
+		};
+		DB4422E11E4269E600CA4E5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Kidney AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MyCompany.Kidney-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Kidney App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB4422AC1E4269E600CA4E5F /* Build configuration list for PBXProject "Kidney App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB4422D71E4269E600CA4E5F /* Debug */,
+				DB4422D81E4269E600CA4E5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB4422D91E4269E600CA4E5F /* Build configuration list for PBXNativeTarget "Kidney App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB4422DA1E4269E600CA4E5F /* Debug */,
+				DB4422DB1E4269E600CA4E5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB4422DC1E4269E600CA4E5F /* Build configuration list for PBXNativeTarget "Kidney AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB4422DD1E4269E600CA4E5F /* Debug */,
+				DB4422DE1E4269E600CA4E5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB4422DF1E4269E600CA4E5F /* Build configuration list for PBXNativeTarget "Kidney AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB4422E01E4269E600CA4E5F /* Debug */,
+				DB4422E11E4269E600CA4E5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB4422A91E4269E600CA4E5F /* Project object */;
+}
